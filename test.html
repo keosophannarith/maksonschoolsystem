@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ដំណាក់កាលនៃការតាក់តែងវិញ្ញាសាប្រឡងស្តង់ដាអន្តរជាតិ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&family=Moul&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Battambang', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .title-font {
+            font-family: 'Moul', cursive;
+        }
+        /* Style for the print/export version */
+        #document-content {
+            background-color: white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased p-4 md:p-8">
+
+    <!-- Action Bar -->
+    <div class="max-w-4xl mx-auto mb-6 flex justify-between items-center bg-white p-4 rounded-lg shadow-sm">
+        <div>
+            <h2 class="text-lg font-bold text-blue-800">ឯកសារអប់រំ</h2>
+            <p class="text-sm text-gray-500">ការតាក់តែងវិញ្ញាសាស្តង់ដា</p>
+        </div>
+        <button onclick="exportHTMLToWord('document-content', 'Standard_Exam_Development_Stages')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center transition duration-300">
+            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+            <span>ទាញយកជា Word</span>
+        </button>
+    </div>
+
+    <!-- Document Content (This part will be exported to Word) -->
+    <div id="document-content" class="max-w-4xl mx-auto p-8 md:p-12 rounded-lg">
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h1 class="title-font" style="font-size: 24px; color: #1e3a8a; line-height: 1.5; margin-bottom: 10px;">
+                ដំណាក់កាលនៃការតាក់តែងវិញ្ញាសាប្រឡង<br>តាមបែបស្តង់ដាខ្នាតអន្តរជាតិ
+            </h1>
+            <p style="color: #4b5563; font-size: 16px;">រៀបចំសង្ខេបអំពីដំណើរការ និងគំនិតស្នូលសំខាន់ៗ</p>
+        </div>
+
+        <div style="margin-bottom: 20px; line-height: 1.8; text-align: justify;">
+            <p>ការបង្កើតវិញ្ញាសាប្រឡងដែលមានគុណភាព ភាពត្រឹមត្រូវ និងយុត្តិធម៌ (Reliability and Validity) តាមស្តង់ដាអន្តរជាតិ មិនមែនគ្រាន់តែជាការនឹកឃើញសំណួរសរសេរដាក់លើក្រដាសនោះទេ។ វាទាមទារឱ្យមានដំណើរការតាមបែបវិទ្យាសាស្ត្រ និងគរុកោសល្យច្បាស់លាស់។ ខាងក្រោមនេះជាដំណាក់កាលសំខាន់ៗទាំង ៧៖</p>
+        </div>
+
+        <!-- Stage 1 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ១. ការរៀបចំផែនការ និងរចនាសម្ព័ន្ធ (Planning and Design)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                ជាជំហានដំបូងបង្អស់ក្នុងការកំណត់ទិសដៅនៃវិញ្ញាសា ថាតើចង់វាស់ស្ទង់អ្វីខ្លះ ពីនរណា និងក្នុងកម្រិតណា។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ តារាងបញ្ជាក់លក្ខណៈវិញ្ញាសា (Table of Specifications - TOS):</b> ជាផែនទីចង្អុលផ្លូវដែលកំណត់សមាមាត្រនៃមេរៀននីមួយៗ និងកម្រិតនៃការយល់ដឹង (ឧទាហរណ៍៖ ចំណេះដឹង ការយល់ ការអនុវត្ត ការវិភាគ តាមទ្រឹស្តី Bloom's Taxonomy)។ វាធានាថាវិញ្ញាសាមិនលម្អៀងទៅរកមេរៀនណាមួយជ្រុលពេក។</li>
+            </ul>
+        </div>
+
+        <!-- Stage 2 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ២. ការតាក់តែងសំណួរ (Item Writing)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                អ្នកជំនាញមុខវិជ្ជា (Subject Matter Experts) ចាប់ផ្តើមសរសេរសំណួរដោយផ្អែកលើតារាង TOS ដែលបានអនុម័ត។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ ភាពច្បាស់លាស់ និងភាពត្រឹមត្រូវ (Clarity and Accuracy):</b> សំណួរត្រូវតែសរសេរជាភាសាដែលអាចយល់បានច្បាស់ មិនបង្កឱ្យមានការយល់ច្រឡំ។ រាល់សំណួរពហុជ្រើសរើស (MCQ) ត្រូវមានចម្លើយត្រឹមត្រូវតែមួយគត់ និងមានជម្រើសបញ្ឆោត (Distractors) ដែលសមហេតុផល។</li>
+            </ul>
+        </div>
+
+        <!-- Stage 3 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ៣. ការត្រួតពិនិត្យ និងកែលម្អសំណួរ (Item Review and Moderation)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                សំណួរដែលបានតាក់តែងរួច ត្រូវឆ្លងកាត់ការត្រួតពិនិត្យដោយគណៈកម្មការមួយផ្សេងទៀតដើម្បីរកកំហុស។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ ការត្រួតពិនិត្យដោយអ្នកជំនាញ (Peer/Expert Review):</b> ពិនិត្យមើលភាពត្រឹមត្រូវនៃខ្លឹមសារ អក្ខរាវិរុទ្ធ កម្រិតលំបាក និងលុបបំបាត់ភាពលម្អៀង (Bias) ដូចជាការប្រើពាក្យពេចន៍ដែលធ្វើឱ្យប៉ះពាល់ដល់យេនឌ័រ សាសនា ឬវប្បធម៌របស់អ្នកប្រឡង។</li>
+            </ul>
+        </div>
+
+        <!-- Stage 4 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ៤. ការសាកល្បងវិញ្ញាសា (Pre-testing / Piloting)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                យកសំណួរទៅធ្វើតេស្តសាកល្បងលើក្រុមសិស្ស/បេក្ខជនដែលមានលក្ខណៈស្រដៀងនឹងបេក្ខជនគោលដៅ (Sample Group)។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ ការប្រមូលទិន្នន័យជាក់ស្តែង (Empirical Data Collection):</b> ការសាកល្បងនេះមិនយកពិន្ទុជាផ្លូវការទេ ប៉ុន្តែដើម្បីចង់ដឹងថាតើសំណួរនីមួយៗពិតជាអាចវាស់ស្ទង់សមត្ថភាពបានត្រឹមត្រូវឬទេ និងដើម្បីដឹងពីពេលវេលាដែលបេក្ខជនត្រូវការប្រើប្រាស់ជាក់ស្តែង។</li>
+            </ul>
+        </div>
+
+        <!-- Stage 5 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ៥. ការវិភាគសំណួរ (Item Analysis)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                ទិន្នន័យបានពីការសាកល្បង នឹងត្រូវយកមកវិភាគតាមបែបស្ថិតិ។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ សន្ទស្សន៍ភាពលំបាក និងអំណាចរើសអើង (Difficulty Index & Discrimination Index):</b> 
+                    <br> - <i>កម្រិតភាពលំបាក៖</i> បង្ហាញថាបេក្ខជនប៉ុន្មានភាគរយឆ្លើយត្រូវ (សំណួរមិនគួរងាយពេក ឬលំបាកពេក)។
+                    <br> - <i>អំណាចរើសអើង៖</i> សមត្ថភាពនៃសំណួរដែលអាចបែងចែកដាច់រវាងសិស្សពូកែ និងសិស្សខ្សោយ។ បើសិស្សខ្សោយឆ្លើយត្រូវច្រើនជាងសិស្សពូកែ នោះសំណួរមានបញ្ហា។
+                </li>
+            </ul>
+        </div>
+
+        <!-- Stage 6 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ៦. ការចងក្រង និងការបង្កើតអត្រាកំណែ (Test Assembly and Rubric Creation)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                ជ្រើសរើសយកតែសំណួរដែលល្អ (ឆ្លងកាត់ការវិភាគស្ថិតិ) មកចងក្រងជាវិញ្ញាសាពេញលេញ។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ អត្រាកំណែស្តង់ដា (Standardized Marking Scheme/Rubric):</b> សម្រាប់សំណួរសរសេរ ត្រូវមានអត្រាកំណែ (Rubric) លម្អិតដែលបញ្ជាក់ពីលក្ខខណ្ឌនៃការផ្តល់ពិន្ទុ ដើម្បីធានាថាអ្នកកែវិញ្ញាសាខុសគ្នា ផ្តល់ពិន្ទុដូចគ្នា ឬប្រហាក់ប្រហែលគ្នា (Inter-rater reliability)។ ត្រូវកំណត់ការណែនាំ និងពេលវេលាឱ្យបានច្បាស់លាស់សម្រាប់បេក្ខជន។</li>
+            </ul>
+        </div>
+
+        <!-- Stage 7 -->
+        <div style="margin-bottom: 25px;">
+            <h2 style="color: #2563eb; font-size: 18px; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #e5e7eb; padding-bottom: 5px;">
+                ៧. ការវាយតម្លៃក្រោយការប្រឡង និងធនាគារសំណួរ (Post-Exam Evaluation & Item Banking)
+            </h2>
+            <p style="margin-bottom: 10px; line-height: 1.6; text-align: justify;">
+                បន្ទាប់ពីការប្រឡងផ្លូវការបញ្ចប់ ដំណើរការមិនទាន់ចប់នោះទេ។
+            </p>
+            <ul style="list-style-type: disc; margin-left: 20px; line-height: 1.6; color: #374151;">
+                <li><b>គំនិតស្នូល៖ ការថែរក្សាគុណភាព (Quality Assurance):</b> លទ្ធផលប្រឡងផ្លូវការត្រូវយកមកវិភាគម្តងទៀតដើម្បីធានាសុពលភាព។ សំណួរល្អៗនឹងត្រូវរក្សាទុកក្នុងធនាគារសំណួរ (Item Bank) សម្រាប់ប្រើប្រាស់នៅពេលក្រោយ ហើយសំណួរណាដែលមានបញ្ហានឹងត្រូវដកចេញ ឬយកទៅកែសម្រួលឡើងវិញ។</li>
+            </ul>
+        </div>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #d1d5db; text-align: center; color: #6b7280; font-size: 14px;">
+            <p><b>សេចក្តីសន្និដ្ឋាន៖</b> វិញ្ញាសាប្រឡងស្តង់ដាអន្តរជាតិ ផ្តោតសំខាន់លើ <b>សុពលភាព (វាស់អ្វីដែលចង់វាស់)</b> និង <b>ភាពជឿទុកចិត្តបាន (លទ្ធផលថេរ)</b> ដោយមានការចូលរួមពីអ្នកជំនាញមុខវិជ្ជា និងអ្នកជំនាញផ្នែករង្វាយតម្លៃ (Psychometricians)។</p>
+        </div>
+
+    </div>
+
+    <!-- JavaScript for Word Export -->
+    <script>
+        function exportHTMLToWord(elementId, filename = '') {
+            // Get HTML of the content
+            var content = document.getElementById(elementId).innerHTML;
+
+            // Basic CSS for Word Doc formatting to ensure it looks decent when opened in MS Word
+            var styles = `
+                <style>
+                    body { font-family: 'Khmer OS Battambang', 'Arial', sans-serif; font-size: 12pt; }
+                    h1 { font-family: 'Khmer OS Muol Light', 'Times New Roman', serif; font-size: 16pt; color: #1e3a8a; text-align: center;}
+                    h2 { font-family: 'Khmer OS Battambang', 'Arial', sans-serif; font-size: 14pt; color: #2563eb; }
+                    p { text-align: justify; line-height: 1.5; }
+                    ul { margin-left: 20px; }
+                    li { line-height: 1.5; margin-bottom: 5px; }
+                </style>
+            `;
+
+            // Prepare the HTML document for Word
+            var preHtml = `<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+                <head>
+                    <meta charset='utf-8'>
+                    <title>Export HTML To Doc</title>
+                    ${styles}
+                </head>
+                <body>`;
+            var postHtml = "</body></html>";
+            
+            var html = preHtml + content + postHtml;
+
+            // Use Blob for proper encoding
+            var blob = new Blob(['\ufeff', html], {
+                type: 'application/msword'
+            });
+            
+            // Create a temporary link and trigger download
+            var url = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(html);
+            var downloadLink = document.createElement("a");
+
+            document.body.appendChild(downloadLink);
+            filename = filename ? filename + '.doc' : 'document.doc';
+
+            if(navigator.msSaveOrOpenBlob ){
+                // For IE
+                navigator.msSaveOrOpenBlob(blob, filename);
+            } else {
+                // For other browsers
+                downloadLink.href = URL.createObjectURL(blob);
+                downloadLink.download = filename;
+                downloadLink.click();
+            }
+            
+            // Clean up
+            document.body.removeChild(downloadLink);
+            URL.revokeObjectURL(downloadLink.href);
+        }
+    </script>
+</body>
+</html>
